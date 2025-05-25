@@ -27,24 +27,23 @@ A load is applied quickly on a soft clay layer. There's no time for drainage.
 </p>
 
 
-<!-- 
-<video autoplay muted loop playsinline controls style="max-width: 700px; width: 100%; display: block; margin: 0 auto;">
-  <source src="assets/LoadEng.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video> -->
-
-
 **Undrained Displacement Animation:**
 
-<video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <source src="assets/LoadMC_1_Eng.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
+    <source src="assets/LoadMC_1_Eng.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 **Mohr Circles (Total & Effective Stress – Point A & B):**
 
-<video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
-  <source src="assets/LoadMC_2_Eng.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
+    <source src="assets/LoadMC_2_Eng.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
@@ -58,15 +57,21 @@ As time progresses, pore water drains and:
 
 **Pore Pressure Dissipation Animation:**
 
-<video controls>
-  <source src="assets/Cons2_Eng.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
+    <source src="assets/Cons2_Eng.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 **Mohr Circles (during consolidation):**
 
-<video controls>
-  <source src="assets/Cons_MC_1_Eng.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
+    <source src="assets/Cons_1_Eng.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
@@ -80,9 +85,12 @@ Once drained, the safety stage checks long-term stability.
 
 **Failure Mechanism (Safety Stage):**
 
-<video controls>
-  <source src="assets/SSR.mp4" type="video/mp4">
-</video>
+<p align="center">
+  <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
+    <source src="assets/SSR.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</p>
 
 ---
 
