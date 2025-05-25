@@ -136,7 +136,7 @@ To evaluate safety in a numerical model, the soil strength can be progressively 
   <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
     <span>
-      You can access the code and files in the
+      You can access the animations in the
       <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub repository</a>.
     </span>
   </div>
