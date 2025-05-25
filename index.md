@@ -18,20 +18,20 @@ A load is applied quickly on a soft clay layer. There's no time for drainage.
 
 **Pore Pressure Animation:**
 
-<video width="480" controls>
-  <source src="assets/video1.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/LoadEng.mp4" type="video/mp4">
 </video>
 
 **Undrained Displacement Animation:**
 
-<video width="480" controls>
-  <source src="assets/video2.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/LoadMC_1_Eng.mp4" type="video/mp4">
 </video>
 
 **Mohr Circles (Total & Effective Stress – Point A & B):**
 
-<video width="480" controls>
-  <source src="assets/mohr_undrained.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/LoadMC_2_Eng.mp4" type="video/mp4">
 </video>
 
 ---
@@ -46,14 +46,14 @@ As time progresses, pore water drains and:
 
 **Pore Pressure Dissipation Animation:**
 
-<video width="480" controls>
-  <source src="assets/video_consolidation_pp.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/Cons2_Eng.mp4" type="video/mp4">
 </video>
 
 **Mohr Circles (during consolidation):**
 
-<video width="480" controls>
-  <source src="assets/mohr_consolidation.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/Cons_MC_1_Eng.mp4" type="video/mp4">
 </video>
 
 ---
@@ -68,8 +68,8 @@ Once drained, the safety stage checks long-term stability.
 
 **Failure Mechanism (Safety Stage):**
 
-<video width="480" controls>
-  <source src="assets/video_safety.mp4" type="video/mp4">
+<video controls>
+  <source src="assets/SSR.mp4" type="video/mp4">
 </video>
 
 ---
