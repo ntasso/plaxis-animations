@@ -18,19 +18,19 @@ A load is applied quickly on a soft clay layer. There's no time for drainage.
 
 **Pore Pressure Animation:**
 
-<video controls>
+<video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <source src="assets/LoadEng.mp4" type="video/mp4">
 </video>
 
 **Undrained Displacement Animation:**
 
-<video controls>
+<video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <source src="assets/LoadMC_1_Eng.mp4" type="video/mp4">
 </video>
 
 **Mohr Circles (Total & Effective Stress – Point A & B):**
 
-<video controls>
+<video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
   <source src="assets/LoadMC_2_Eng.mp4" type="video/mp4">
 </video>
 
