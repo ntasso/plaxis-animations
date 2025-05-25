@@ -1,6 +1,12 @@
 # Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Stages
 
-This page presents a simplified numerical model built in PLAXIS to illustrate how saturated soft clay responds to surface loading in three typical stages of geotechnical analysis: **undrained plastic**, **consolidation**, and **safety**.
+This page presents a simplified numerical model built in [**PLAXIS**](https://www.plaxis.com/) to illustrate how saturated soft clay responds to surface loading through three typical **phases** of geotechnical analysis: **undrained plastic**, **consolidation**, and **safety**.
+
+These phases were simulated using the [PLAXIS Finite Element software](https://www.plaxis.com/), widely used in geotechnical engineering.
+
+<p align="center">
+  <img src="assets/plaxis-logo.png" alt="PLAXIS logo" style="width: 150px;">
+</p>
 
 ---
 
@@ -121,21 +127,21 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 
 ---
 
-## 🔗 Source Files and Contact
 
-- Code and source files: [GitHub Repository](https://github.com/ntasso/plaxis-animations)
-- Author: Nicolás Tasso  
-  [LinkedIn Profile](https://www.linkedin.com/in/ntasso)
 
----
+## 📚 About This Project
 
-## 📚 Additional Info
+These animations were originally prepared for a technical talk at the  
+**[V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos](https://sites.google.com/view/geogroup-uba/)**.
 
-These animations were originally prepared for a talk given at the **V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos**, in 2024.
+They are also used in the course **Geotecnia Numérica I**, part of the  
+[**Specialization in Geotechnical Engineering**](https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica)  
+at the University of Buenos Aires (UBA).
 
-They are also part of the materials used in the course **Geotecnia Numérica I**, part of the **Specialization in Geotechnical Engineering** at the University of Buenos Aires (UBA).
+You can access the source files and code used to generate these results in the  
+[GitHub repository](https://github.com/ntasso/plaxis-animations).
 
 <p align="left" style="display: flex; align-items: center; gap: 10px;">
-  <img src="assets/profile.jpg" alt="Profile photo" style="width: 60px; border-radius: 50%; margin-right: 10px;">
+  <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%; margin-right: 10px;">
   <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
 </p>
