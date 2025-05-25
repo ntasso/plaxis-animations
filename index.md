@@ -139,12 +139,11 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 
 ---
 
-
 <h2>📚 About This Project</h2>
 
 <p>
 These animations were originally prepared for a technical talk at the 
-<a href="https://geogroupuni.com/" target="_blank"><strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong></a>, organized by the GeoGroup at FIC-UNI.
+<a href="https://sites.google.com/view/geogroup-uba/" target="_blank"><strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong></a>, organized by the GeoGroup at UBA.
 
 They are also used as part of the course <strong>Geotecnia Numérica I</strong>, which belongs to the 
 <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank"><strong>Specialization in Geotechnical Engineering</strong></a> at the University of Buenos Aires (UBA).
@@ -153,13 +152,26 @@ You can access the code and files in the
 <a href="https://github.com/ntasso/plaxis-animations" target="_blank"><strong>GitHub repository</strong></a>.
 </p>
 
-<div style="display: flex; flex-direction: column; align-items: start; gap: 12px; margin-top: 20px;">
-  <div style="display: flex; align-items: center; gap: 10px;">
+<div style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
+
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
+    <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub – Source Files and Animations</a>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
+    <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup – Organizer of CIGEMIS</a>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 60px;">
+    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">CEIG UBA – Geotechnical Specialization</a>
+  </div>
+
+  <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
     <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
   </div>
 
-  <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
-  <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
-  <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 60px; border-radius: 50%;">
 </div>
