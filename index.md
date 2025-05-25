@@ -136,37 +136,31 @@ After full consolidation, the model is tested for stability using the **strength
 This simplified example demonstrates how numerical models can be used not only to simulate real scenarios, but also to **gain intuition** about soil behavior under staged loading.
 
 Numerical tools like PLAXIS, combined with scripting through Python, enable fast exploration of multiple scenarios and help us make better geotechnical decisions.
-
 ---
 
 <h2>📚 About This Project</h2>
 
-<p>
-These animations were originally prepared for a technical talk at the 
-<a href="https://sites.google.com/view/geogroup-uba/" target="_blank"><strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong></a>, organized by the GeoGroup at UBA.
-
-They are also used as part of the course <strong>Geotecnia Numérica I</strong>, which belongs to the 
-<a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank"><strong>Specialization in Geotechnical Engineering</strong></a> at the University of Buenos Aires (UBA).
-
-You can access the code and files in the 
-<a href="https://github.com/ntasso/plaxis-animations" target="_blank"><strong>GitHub repository</strong></a>.
-</p>
-
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
 
   <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
-    <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub – Source Files and Animations</a>
+    <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;"> You can access the code and files in the 
+    <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub</a>
   </div>
 
-  <div style="display: flex; align-items: center; gap: 15px;">
+<div style="display: flex; align-items: center; gap: 15px;">
+  <div style="background-color: black; padding: 5px; border-radius: 50%;">
     <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
-    <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup – Organizer of CIGEMIS</a>
   </div>
+  These animations were originally prepared for a technical talk at the V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos, organized by
+  <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">
+    GeoGroup
+  </a>.
+</div>
+
 
   <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 60px;">
-    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">CEIG UBA – Geotechnical Specialization</a>
+    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 200px; "> They are also used as part of the course Geotecnia Numérica I, which belongs to the  
+    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA)
   </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
