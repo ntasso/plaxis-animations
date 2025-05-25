@@ -1,4 +1,4 @@
-# Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Stages
+# Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Phases
 
 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
   <div style="flex: 1; min-width: 300px;">
@@ -140,20 +140,26 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 ---
 
 
+<h2>📚 About This Project</h2>
 
-## 📚 About This Project
+<p>
+These animations were originally prepared for a technical talk at the 
+<a href="https://geogroupuni.com/" target="_blank"><strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong></a>, organized by the GeoGroup at FIC-UNI.
 
-These animations were originally prepared for a technical talk at the  
-**[V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos](https://sites.google.com/view/geogroup-uba/)**.
+They are also used as part of the course <strong>Geotecnia Numérica I</strong>, which belongs to the 
+<a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank"><strong>Specialization in Geotechnical Engineering</strong></a> at the University of Buenos Aires (UBA).
 
-They are also used in the course **Geotecnia Numérica I**, part of the  
-[**Specialization in Geotechnical Engineering**](https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica)  
-at the University of Buenos Aires (UBA).
-
-You can access the source files and code used to generate these results in the  
-[GitHub repository](https://github.com/ntasso/plaxis-animations).
-
-<p align="left" style="display: flex; align-items: center; gap: 10px;">
-  <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%; margin-right: 10px;">
-  <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
+You can access the code and files in the 
+<a href="https://github.com/ntasso/plaxis-animations" target="_blank"><strong>GitHub repository</strong></a>.
 </p>
+
+<div style="display: flex; flex-direction: column; align-items: start; gap: 12px; margin-top: 20px;">
+  <div style="display: flex; align-items: center; gap: 10px;">
+    <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
+    <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
+  </div>
+
+  <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
+  <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
+  <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 60px; border-radius: 50%;">
+</div>
