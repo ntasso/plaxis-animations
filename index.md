@@ -117,7 +117,7 @@ A time-dependent calculation is used to simulate consolidation. In this phase, e
 ## Safety Phase
 
 <p>
-To evaluate safety in a numerical model, the soil strength can be progressively reduced using a Strength Reduction Factor (SRF or SSR). The shear strength is defined as <em>τ = σ′<sub>v</sub> · tan(φ) + c′</em>, and can be reduced to <em>τ = (σ′<sub>v</sub> · tan(φ) + c′) / SSR</em>. The factor is increased step by step until the model reaches failure. The final SSR value provides an estimate of the available safety margin in terms of shear stren
+To evaluate safety in a numerical model, the soil strength can be progressively reduced using a Strength Reduction Factor (SRF or SSR). The shear strength is defined as <em>τ = σ′<sub>v</sub> · tan(φ) + c′</em>, and can be reduced to <em>τ = (σ′<sub>v</sub> · tan(φ) + c′) / SSR</em>. The factor is increased step by step until the model reaches failure. The final SSR value provides an estimate of the available safety margin in terms of shear strength</p>
 
 **Failure Mechanism Animation:**
 
