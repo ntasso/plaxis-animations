@@ -156,30 +156,34 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
 
   <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;"> You can access the code and files in the 
-    <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub</a>
+    <img src="assets/github-logo.png" alt="GitHub logo" style="width: 60px; border-radius: 50%;">
+    <span>
+      You can access the code and files in the
+      <a href="https://github.com/ntasso/plaxis-animations" target="_blank">GitHub repository</a>.
+    </span>
   </div>
 
-<div style="display: flex; align-items: center; gap: 15px;">
-  <div style="background-color: black; padding: 5px; border-radius: 50%;">
-    <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <div style="background-color: black; padding: 5px; border-radius: 50%;">
+      <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
+    </div>
+    <span>
+      These animations were originally prepared for a technical talk at the <strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong>, organized by
+      <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup</a>.
+    </span>
   </div>
-  These animations were originally prepared for a technical talk at the V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos, organized by
-  <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">
-    GeoGroup
-  </a>.
-</div>
 
-
-
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 200px;">
+    <span>
+      They are also used as part of the course <strong>Geotecnia Numérica I</strong>, which belongs to the
+      <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA).
+    </span>
+  </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
     <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
   </div>
 
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 200px; "> They are also used as part of the course Geotecnia Numérica I, which belongs to the  
-    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA)
-  </div>
 </div>
