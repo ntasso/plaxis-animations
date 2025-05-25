@@ -1,4 +1,4 @@
-# Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Phases
+# Clay Under Load – A Visual Introduction to Plastic, Consolidation, and Safety Phases
 
 This page presents a simplified numerical model designed to illustrate how saturated soft clay responds to surface loading through three common phases in geotechnical analysis:
 
@@ -63,7 +63,7 @@ The goal is to help students and professionals develop visual intuition on pore 
 A plastic calculation is used to apply the load incrementally. This phase does <strong>not involve time-dependent behavior</strong> (unless a viscous-plastic material is used): the load is considered instantaneous. The full stress state in any point of the mesh can be tracked throughout the loading process.
 </p>
 
-**Pore Pressure Animation:**
+**Pore Pressure and Displacement Animation:**
 
 <p align="center">
   <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
@@ -71,7 +71,7 @@ A plastic calculation is used to apply the load incrementally. This phase does <
   </video>
 </p>
 
-**Undrained Displacement Animation:**
+**Mohr Circles – Beneath the load:**
 
 <p align="center">
   <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
@@ -79,10 +79,7 @@ A plastic calculation is used to apply the load incrementally. This phase does <
   </video>
 </p>
 
-**Mohr Circles – Point A and B:**
-
-- At **Point A** (beneath the load), pore pressure increases while total stress moves rightward, keeping effective stress nearly constant.
-- At **Point B** (next to the load), stress directions rotate and both total and effective stress states evolve.
+**Mohr Circles – Adjacent to the loaded area:**
 
 <p align="center">
   <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
@@ -109,9 +106,6 @@ A time-dependent calculation is used to simulate consolidation. In this phase, e
 
 **Mohr Circles During Consolidation:**
 
-- Effective stress grows as water drains.
-- At the end of this stage, total and effective stresses converge (pore pressure = 0).
-
 <p align="center">
   <video autoplay muted loop playsinline controls style="width: 100%; max-width: 100%;">
     <source src="assets/ConsMC_1_Eng.mp4" type="video/mp4">
@@ -120,7 +114,7 @@ A time-dependent calculation is used to simulate consolidation. In this phase, e
 
 ---
 
-## 🟢 Safety Stage
+## Safety Phase
 
 <p>
 To evaluate safety in a numerical model, the soil strength can be progressively reduced using a Strength Reduction Factor (SRF or SSR). The shear strength is defined as <em>τ = σ′<sub>v</sub> · tan(φ) + c′</em>, and can be reduced to <em>τ = (σ′<sub>v</sub> · tan(φ) + c′) / SSR</em>. The factor is increased step by step until the model reaches failure. The final SSR value provides an estimate of the available safety margin in terms of shear stren
@@ -135,7 +129,7 @@ To evaluate safety in a numerical model, the soil strength can be progressively 
 
 ---
 
-<h2>📚 About This Project</h2>
+## 📚 About This Project
 
 <div style="display: flex; flex-direction: column; gap: 20px; margin-top: 30px;">
 
@@ -154,8 +148,6 @@ To evaluate safety in a numerical model, the soil strength can be progressively 
       <a href="https://geogroupuni.com/" target="_blank">GeoGroup</a>.
     </span>
   </div>
-
-
 
   <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
