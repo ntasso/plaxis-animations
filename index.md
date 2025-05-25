@@ -164,13 +164,18 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
   </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
-    <div style="background-color: black; padding: 5px; border-radius: 50%;">
-      <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
-    </div>
+    <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
     <span>
       These animations were originally prepared for a technical talk at the <strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong>, organized by
       <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup</a>.
     </span>
+  </div>
+
+
+
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
+    <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
   </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
@@ -180,10 +185,4 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
       <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA).
     </span>
   </div>
-
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
-    <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
-  </div>
-
 </div>
