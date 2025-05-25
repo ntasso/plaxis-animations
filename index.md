@@ -18,11 +18,16 @@ A load is applied quickly on a soft clay layer. There's no time for drainage.
 
 **Pore Pressure Animation:**
 
-<video controls style="width: 100%; display: block;">
+<video 
+  autoplay 
+  muted 
+  playsinline 
+  onmouseover="this.controls = true" 
+  onmouseout="this.controls = false" 
+  style="max-width: 700px; width: 100%; display: block; margin: 0 auto;">
   <source src="assets/LoadEng.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-
 
 **Undrained Displacement Animation:**
 
