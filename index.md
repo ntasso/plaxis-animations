@@ -11,7 +11,7 @@ The goal is to help students and professionals develop visual intuition on pore 
 
 ---
 
-<h2>🧩 Software</h2>
+<h2>Software</h2>
 
 <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
 
@@ -34,13 +34,13 @@ The goal is to help students and professionals develop visual intuition on pore 
 
 ---
 
-<h2>🧱 Model Overview</h2>
+<h2>Model Overview</h2>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px;">
 
   <div style="flex: 1; min-width: 300px;">
     <p>
-      This 2D plain strain model represents a <strong>6-meter thick saturated clay layer</strong> loaded at the surface in three steps. The clay is <strong>normally consolidated</strong>, with <code>NSPT ≈ 1</code>, representing a very soft deposit like those found in the Amazon region.
+      This 2D plain strain model represents a <strong>6-meter thick saturated clay layer</strong> loaded at the surface in three steps. The clay is <strong>normally consolidated</strong>, with <code>NSPT ≈ 1</code>, representing a very soft deposit.
     </p>
     <ul>
       <li><strong>HS-Small</strong> material model, calibrated with triaxial and oedometer tests.</li>
@@ -57,14 +57,11 @@ The goal is to help students and professionals develop visual intuition on pore 
 
 ---
 
-## 🟠 Undrained Plastic Stage
+## Undrained Plastic Phase
 
-The first load increment is applied quickly, and the soil does not have time to drain. This causes:
-
-- An **instant increase in pore pressure**
-- **Plastic displacements** under the load
-- **Effective stress drop**
-- Changes in **stress orientation** and **shear zones**
+<p>
+A plastic calculation is used to apply the load incrementally. This phase does <strong>not involve time-dependent behavior</strong> (unless a viscous-plastic material is used): the load is considered instantaneous. The full stress state in any point of the mesh can be tracked throughout the loading process.
+</p>
 
 **Pore Pressure Animation:**
 
@@ -95,14 +92,12 @@ The first load increment is applied quickly, and the soil does not have time to 
 
 ---
 
-## 🔵 Consolidation Stage
+## Consolidation Phase
 
-After the undrained stage, the system is allowed to drain for a fixed period. During this time:
+<p>
+A time-dependent calculation is used to simulate consolidation. In this phase, excess pore pressures dissipate according to the boundary conditions and the permeability of the materials. An analysis time must be defined beforehand. The simulation runs until the specified time is reached, allowing effective stresses to increase and settlements to develop progressively.
+</p>
 
-- **Pore pressures dissipate** gradually
-- **Effective stresses increase**
-- **Settlement continues** as volume change occurs
-- The system transitions to a drained state
 
 **Pore Pressure Dissipation Animation:**
 
@@ -127,11 +122,8 @@ After the undrained stage, the system is allowed to drain for a fixed period. Du
 
 ## 🟢 Safety Stage
 
-After full consolidation, the model is tested for stability using the **strength reduction method** (SSR). In this stage:
-
-- No excess pore pressure remains
-- The **failure mechanism** becomes visible
-- The **Factor of Safety (FoS)** is estimated by progressively reducing the strength parameters until collapse
+<p>
+To evaluate safety in a numerical model, the soil strength can be progressively reduced using a Strength Reduction Factor (SRF or SSR). The shear strength is defined as <em>τ = σ′<sub>v</sub> · tan(φ) + c′</em>, and can be reduced to <em>τ = (σ′<sub>v</sub> · tan(φ) + c′) / SSR</em>. The factor is increased step by step until the model reaches failure. The final SSR value provides an estimate of the available safety margin in terms of shear stren
 
 **Failure Mechanism Animation:**
 
@@ -140,14 +132,6 @@ After full consolidation, the model is tested for stability using the **strength
     <source src="assets/SSR.mp4" type="video/mp4">
   </video>
 </p>
-
----
-
-## 📌 Summary
-
-This simplified example demonstrates how numerical models can be used not only to simulate real scenarios, but also to **gain intuition** about soil behavior under staged loading.
-
-Numerical tools like PLAXIS, combined with scripting through Python, enable fast exploration of multiple scenarios and help us make better geotechnical decisions.
 
 ---
 
@@ -167,7 +151,7 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
     <img src="assets/geogroup-logo2.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
     <span>
       These animations were originally prepared for a technical talk at the <strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong>, organized by
-      <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup</a>.
+      <a href="https://geogroupuni.com/" target="_blank">GeoGroup</a>.
     </span>
   </div>
 
@@ -175,7 +159,7 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 
   <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
-    <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
+    <a href="https://www.linkedin.com/in/nicolas-tasso/" target="_blank">Connect with me on LinkedIn</a>
   </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
