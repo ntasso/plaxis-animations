@@ -1,24 +1,36 @@
 # Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Phases
 
-<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+This page presents a simplified numerical model designed to illustrate how saturated soft clay responds to surface loading through three common phases in geotechnical analysis:
+
+- **Undrained plastic**
+- **Consolidation**
+- **Safety**
+
+The goal is to help students and professionals develop visual intuition on pore pressure generation, stress redistribution, and long-term stability under staged loading.
+
+
+---
+
+<h2>🧩 Software</h2>
+
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+
   <div style="flex: 1; min-width: 300px;">
     <p>
-      This page presents a simplified numerical model to illustrate how saturated soft clay responds to surface loading through three typical <strong>phases</strong> in geotechnical analysis:
+      The numerical model and animations were developed using 
+      <a href="https://www.plaxis.com/" target="_blank"><strong>PLAXIS</strong></a>, a finite element software for geotechnical analysis. PLAXIS is widely used in both industry and academia to simulate soil-structure interaction, consolidation, and advanced constitutive behavior.
     </p>
-    <ul>
-      <li><strong>Undrained plastic</strong></li>
-      <li><strong>Consolidation</strong></li>
-      <li><strong>Safety</strong></li>
-    </ul>
     <p>
-      The model was developed using <a href="https://www.plaxis.com/" target="_blank"><strong>PLAXIS</strong></a>, a finite element software widely used in geotechnical engineering.
+      The videos shown in this project were generated using the <strong>Python API</strong> provided by PLAXIS, which allows full automation of model creation, phase management, and result extraction.
     </p>
   </div>
 
   <div style="flex: 0 0 160px; text-align: right;">
     <img src="assets/plaxis-logo.png" alt="PLAXIS logo" style="width: 160px;">
   </div>
+
 </div>
+
 
 ---
 
@@ -136,6 +148,7 @@ After full consolidation, the model is tested for stability using the **strength
 This simplified example demonstrates how numerical models can be used not only to simulate real scenarios, but also to **gain intuition** about soil behavior under staged loading.
 
 Numerical tools like PLAXIS, combined with scripting through Python, enable fast exploration of multiple scenarios and help us make better geotechnical decisions.
+
 ---
 
 <h2>📚 About This Project</h2>
@@ -158,14 +171,15 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 </div>
 
 
-  <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 200px; "> They are also used as part of the course Geotecnia Numérica I, which belongs to the  
-    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA)
-  </div>
+
 
   <div style="display: flex; align-items: center; gap: 15px;">
     <img src="assets/profile.jpg" alt="Nicolás Tasso" style="width: 60px; border-radius: 50%;">
     <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
   </div>
 
+  <div style="display: flex; align-items: center; gap: 15px;">
+    <img src="assets/fiuba-logo.png" alt="CEIG UBA logo" style="width: 200px; "> They are also used as part of the course Geotecnia Numérica I, which belongs to the  
+    <a href="https://www.fi.uba.ar/posgrado/carreras-de-especializacion/ingenieria-geotecnica" target="_blank">Specialization in Geotechnical Engineering</a> at the University of Buenos Aires (UBA)
+  </div>
 </div>
