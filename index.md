@@ -164,7 +164,7 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
   </div>
 
   <div style="display: flex; align-items: center; gap: 15px;">
-    <img src="assets/geogroup-logo.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
+    <img src="assets/geogroup-logo2.png" alt="GeoGroup logo" style="width: 60px; border-radius: 50%;">
     <span>
       These animations were originally prepared for a technical talk at the <strong>V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos</strong>, organized by
       <a href="https://sites.google.com/view/geogroup-uba/" target="_blank">GeoGroup</a>.
