@@ -1,12 +1,24 @@
 # Clay Under Load – A Visual Introduction to Undrained, Consolidation, and Safety Stages
 
-This page presents a simplified numerical model built in [**PLAXIS**](https://www.plaxis.com/) to illustrate how saturated soft clay responds to surface loading through three typical **phases** of geotechnical analysis: **undrained plastic**, **consolidation**, and **safety**.
+<div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px; margin-top: 10px;">
+  <div style="flex: 1; min-width: 300px;">
+    <p>
+      This page presents a simplified numerical model to illustrate how saturated soft clay responds to surface loading through three typical <strong>phases</strong> in geotechnical analysis:
+    </p>
+    <ul>
+      <li><strong>Undrained plastic</strong></li>
+      <li><strong>Consolidation</strong></li>
+      <li><strong>Safety</strong></li>
+    </ul>
+    <p>
+      The model was developed using <a href="https://www.plaxis.com/" target="_blank"><strong>PLAXIS</strong></a>, a finite element software widely used in geotechnical engineering.
+    </p>
+  </div>
 
-These phases were simulated using the [PLAXIS Finite Element software](https://www.plaxis.com/), widely used in geotechnical engineering.
-
-<p align="center">
-  <img src="assets/plaxis-logo.png" alt="PLAXIS logo" style="width: 150px;">
-</p>
+  <div style="flex: 0 0 160px; text-align: right;">
+    <img src="assets/plaxis-logo.png" alt="PLAXIS logo" style="width: 160px;">
+  </div>
+</div>
 
 ---
 
@@ -26,7 +38,7 @@ These phases were simulated using the [PLAXIS Finite Element software](https://w
   </div>
 
   <div style="flex: 1; min-width: 300px; text-align: center;">
-    <img src="assets/model-sketch.svg" alt="Model geometry" style="width: 100%; max-width: 350px;">
+    <img src="assets/model-sketch.svg" alt="Model geometry" style="width: 100%; max-width: 200px;">
   </div>
 
 </div>
