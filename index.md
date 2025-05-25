@@ -4,17 +4,26 @@ This page presents a simplified numerical model built in PLAXIS to illustrate ho
 
 ---
 
-## 🧱 Model Overview
+<h2>🧱 Model Overview</h2>
 
-This 2D plain strain model represents a **6-meter thick saturated clay layer** loaded at the surface in three steps. The clay is **normally consolidated**, with **NSPT ≈ 1**, representing a very soft deposit like those found in the Amazon region.
+<div style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px;">
 
-- The material model used is **HS-Small**, calibrated from laboratory oedometer and triaxial tests.
-- A finite element mesh with triangular elements was used, refined near the loaded zone.
-- The goal is not to match a field case, but to **visualize the response** of clay under staged loading.
+  <div style="flex: 1; min-width: 300px;">
+    <p>
+      This 2D plain strain model represents a <strong>6-meter thick saturated clay layer</strong> loaded at the surface in three steps. The clay is <strong>normally consolidated</strong>, with <code>NSPT ≈ 1</code>, representing a very soft deposit like those found in the Amazon region.
+    </p>
+    <ul>
+      <li><strong>HS-Small</strong> material model, calibrated with triaxial and oedometer tests.</li>
+      <li>Refined triangular mesh near the load area.</li>
+      <li>Used to <strong>visualize soil response</strong> under staged loading.</li>
+    </ul>
+  </div>
 
-<p align="center">
-  <img src="assets/model-sketch.svg" alt="Model geometry" style="width: 100%; max-width: 700px;">
-</p>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <img src="assets/model-sketch.svg" alt="Model geometry" style="width: 100%; max-width: 350px;">
+  </div>
+
+</div>
 
 ---
 
@@ -117,3 +126,16 @@ Numerical tools like PLAXIS, combined with scripting through Python, enable fast
 - Code and source files: [GitHub Repository](https://github.com/ntasso/plaxis-animations)
 - Author: Nicolás Tasso  
   [LinkedIn Profile](https://www.linkedin.com/in/ntasso)
+
+---
+
+## 📚 Additional Info
+
+These animations were originally prepared for a talk given at the **V CIGEMIS – Congreso Iberoamericano de Geotecnia y Métodos Numéricos**, in 2024.
+
+They are also part of the materials used in the course **Geotecnia Numérica I**, part of the **Specialization in Geotechnical Engineering** at the University of Buenos Aires (UBA).
+
+<p align="left" style="display: flex; align-items: center; gap: 10px;">
+  <img src="assets/profile.jpg" alt="Profile photo" style="width: 60px; border-radius: 50%; margin-right: 10px;">
+  <a href="https://www.linkedin.com/in/ntasso" target="_blank">Connect with me on LinkedIn</a>
+</p>
